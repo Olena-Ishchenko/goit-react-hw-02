@@ -1,4 +1,5 @@
 import css from './Options.module.css';
+
 const Options = ({ updateFeedback, totalFeedback, updateTotalFeedback }) => {
   return (
     <ul className={css.optionsList}>
